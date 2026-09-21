@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Page() {
-  return <img src="/test.jpg" />;
+  return <Image src="/test.jpg" alt="Test image" />;
 }
